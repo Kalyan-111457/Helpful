@@ -1,0 +1,12 @@
+resource_group_name = "AllResources"
+location            = "West Europe"
+storage_account_name = "examplestoraccount"
+storage_account_tier = "Standard"
+storage_container_name = "vhds"
+sql_server_name = "example-psqlflexibleserver"
+sql_server_version = "12"
+sql_server_administrator_login = "psqladmin"
+sql_server_administrator_password = "H@Sh1CoR3!"
+sql_server_sku_name = "GP_Standard_D4s_v3"
+sql_server_storage_mb = 32768
+sql_database_name = "exampledb"
