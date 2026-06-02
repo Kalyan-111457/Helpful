@@ -1,0 +1,51 @@
+InternalServerError: stream is not readable
+    at readStream (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\raw-body\index.js:185:17)
+    at getRawBody (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handleRequest (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\route.js:157:13)
+    at routeGuard (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\src\driver\express\ExpressDriver.ts:179:16)
+    at Layer.handleRequest (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:295:15
+    at processParams (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:582:12)
+    at next (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:291:5)
+    at C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\body-parser\lib\read.js:171:5
+InternalServerError: stream is not readable
+    at readStream (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\raw-body\index.js:185:17)
+    at getRawBody (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handleRequest (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\route.js:157:13)
+    at routeGuard (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\src\driver\express\ExpressDriver.ts:179:16)
+    at Layer.handleRequest (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:295:15
+    at processParams (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:582:12)
+    at next (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:291:5)
+    at C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\body-parser\lib\read.js:171:5
+InternalServerError: stream is not readable
+    at readStream (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\raw-body\index.js:185:17)
+    at getRawBody (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\routing-controllers\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handleRequest (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\route.js:157:13)
+    at routeGuard (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\src\driver\express\ExpressDriver.ts:179:16)
+    at Layer.handleRequest (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:295:15
+    at processParams (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:582:12)
+    at next (C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\router\index.js:291:5)
+    at C:\Users\kalyan\Desktop\Dev-Devops\src\app\node_modules\body-parser\lib\read.js:171:5

@@ -1,6 +1,6 @@
 variable "resource_group_name" {
   description = "The name of the resource group to create."
-  type        = string  
+  type        = string
 }
 
 variable "location" {
@@ -11,6 +11,18 @@ variable "location" {
 variable "sql_server_name" {
   description = "The name of the SQL Server to create."
   type        = string
+}
+
+variable "sql_server_location" {
+  description = "The Azure location where the PostgreSQL Flexible Server will be created. Defaults to the resource group location when null."
+  type        = string
+  default     = null
+}
+
+variable "sql_server_zone" {
+  description = "The availability zone for the PostgreSQL Flexible Server."
+  type        = string
+  default     = null
 }
 
 variable "sql_server_administrator_login" {
@@ -50,24 +62,34 @@ variable "sql_database_name" {
   type        = string
 }
 
+variable "sql_server_firewall_start_ip" {
+  description = "The start IP address allowed through the PostgreSQL Flexible Server firewall."
+  type        = string
+}
+
+variable "sql_server_firewall_end_ip" {
+  description = "The end IP address allowed through the PostgreSQL Flexible Server firewall."
+  type        = string
+}
+
 
 
 
 variable "storage_account_name" {
-    description = "The name of the storage account to create."
-    type        = string
+  description = "The name of the storage account to create."
+  type        = string
 }
 
 variable "storage_account_tier" {
-    description = "The tier of the storage account to create."
-    type        = string
-    default     = "Standard"
+  description = "The tier of the storage account to create."
+  type        = string
+  default     = "Standard"
 }
 
 
 variable "storage_container_name" {
-    description = "The name of the storage container to create."
-    type        = string
+  description = "The name of the storage container to create."
+  type        = string
 }
 
 
@@ -91,4 +113,30 @@ variable "subscription_id" {
   description = "The subscription ID for Azure authentication."
   type        = string
 }
+
+
+
+variable "app_name" {
+  description = "The name of the web app"
+  type        = string
+}
+
+variable "app_service_plan_sku" {
+  description = "The SKU of the App Service Plan"
+  type        = string
+  default     = "B1"
+}
+
+variable "app_service_plan_os_type" {
+  description = "The OS type of the App Service Plan"
+  type        = string
+  default     = "Linux"
+}
+
+variable "linux_web_app_name" {
+  description = "the name of the linux web app"
+  type        = string
+
+}
+
 

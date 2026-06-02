@@ -1,6 +1,6 @@
-variable  "resource_group_name" {
+variable "resource_group_name" {
   description = "The name of the resource group to create."
-  type        = string  
+  type        = string
 }
 
 variable "location" {
@@ -11,6 +11,12 @@ variable "location" {
 variable "sql_server_name" {
   description = "The name of the SQL Server to create."
   type        = string
+}
+
+variable "sql_server_zone" {
+  description = "The availability zone for the PostgreSQL Flexible Server."
+  type        = string
+  default     = null
 }
 
 variable "sql_server_administrator_login" {
@@ -50,3 +56,12 @@ variable "sql_database_name" {
   type        = string
 }
 
+variable "sql_server_firewall_start_ip" {
+  description = "The start IP address allowed through the PostgreSQL Flexible Server firewall."
+  type        = string
+}
+
+variable "sql_server_firewall_end_ip" {
+  description = "The end IP address allowed through the PostgreSQL Flexible Server firewall."
+  type        = string
+}
